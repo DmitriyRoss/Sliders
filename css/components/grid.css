@@ -1,8 +1,8 @@
 .grid {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 0 -10px;
-  justify-content: space-between;
+  flex-direction: row;
 }
 .grid-spacebetween {
   display:flex;
@@ -13,4 +13,7 @@
 
 .grid > * {
   padding: 10px;
+}
+.slide-item {
+  width: 30%;
 }
